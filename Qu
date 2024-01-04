@@ -1,0 +1,16 @@
+Given a number, reverse it and add it to itself unless it becomes a palindrome or number of iterations becomes more than 5.
+Example 1:
+
+Input: n = 23
+Output: 55 
+Explanation: reverse(23) = 32,then 32+23
+= 55 which is a palindrome. 
+
+Example 2:
+
+Input: n = 30
+Output: 33
+Explanation: reverse(30) = 3,then 3+30
+= 33 which is palindrome. 
+
+returns that palindrome number if it becomes a palindrome else returns -1.
